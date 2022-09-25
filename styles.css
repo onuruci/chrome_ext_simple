@@ -1,0 +1,43 @@
+.imgclass {
+  width: 320px;
+  height: auto;
+  margin-left: 220px;
+  margin-top: 220px;
+  z-index: 15;
+  max-height: 400px;
+}
+
+#divvclass {
+  position: absolute;
+  top: 10;
+  margin-left: 900px;
+  width: 800px;
+  height: 800px;
+  background-size: 800px 800px;
+  cursor: pointer;
+  align-items: center;
+  z-index: 10;
+  display: block;
+}
+
+#giveMeme {
+  padding: 10px;
+  border: solid black 2px;
+  min-width: 300px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: black -4px 5px;
+  transition: box-shadow 0.2s ease-in-out 0s;
+  color: white;
+  background-color: #e52a30;
+}
+
+#giveMeme :hover {
+  box-shadow: black -1px 1px;
+}
+
+body {
+  padding: 1rem;
+}

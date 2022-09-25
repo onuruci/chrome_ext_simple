@@ -1,6 +1,6 @@
 {
-  "name": "Mirza Photo Change Extension",
-  "description": "Change every image with mirza art",
+  "name": "EESTEC Memes",
+  "description": "Gives You a random EESTEC Meme",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
@@ -12,7 +12,33 @@
   },
   "web_accessible_resources": [{
     "matches": ["<all_urls>"],
-    "resources": ["m.jpg"]
-}]
+    "resources": ["m.jpg", "bg.png",
+      "Memes/1.jpg",
+      "Memes/2.jpg",
+      "Memes/3.jpg",
+      "Memes/4.jpg",
+      "Memes/5.jpg",
+      "Memes/6.jpg",
+      "Memes/7.jpg",
+      "Memes/8.jpg",
+      "Memes/9.jpg",
+      "Memes/10.jpg",
+      "Memes/11.jpg",
+      "Memes/12.jpg",
+      "Memes/13.jpg",
+      "Memes/14.jpg",
+      "Memes/15.jpg",
+      "Memes/16.jpg",
+      "Memes/17.jpg",
+      "Memes/18.jpg"
+    ]
+  }],
+  "icons": { "16": "favicon-3.png",
+           "48": "favicon-2.png",
+          "128": "favicon-1.png" },
+  "content_scripts": [ {
+   "css": [ "styles.css" ],
+   "matches": [ "<all_urls>" ]
+} ]
 }
 
