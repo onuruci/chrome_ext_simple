@@ -9,7 +9,6 @@
 
 #divvclass {
   position: absolute;
-  top: 10;
   margin-left: 900px;
   width: 800px;
   height: 800px;
@@ -36,6 +35,14 @@
 
 #giveMeme :hover {
   box-shadow: black -1px 1px;
+}
+
+#maindivv {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
 }
 
 body {
